@@ -13,8 +13,8 @@ RSpec.describe 'have_attributes matcher' do
       expect(subject).to have_attributes(name: 'Stone Cold Steve Austin')
       expect(subject).to have_attributes(name: 'Stone Cold Steve Austin', finishing_move: 'Stunner')
     end
-  end
 
-  it { is_expected.to have_attributes(name: 'Stone Cold Steve Austin') }
-  it { is_expected.to have_attributes(name: 'Stone Cold Steve Austin', finishing_move: 'Stunner') }
+    it { is_expected.to have_attributes(name: 'Stone Cold Steve Austin') }
+    it { is_expected.to have_attributes(name: 'Stone Cold Steve Austin', finishing_move: 'Stunner') }
+  end
 end
