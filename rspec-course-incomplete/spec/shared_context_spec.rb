@@ -35,3 +35,5 @@ RSpec.describe 'second example in different file' do
     expect(some_variable).to eq([1, 2, 3])
   end
 end
+
+# correction in git commit
